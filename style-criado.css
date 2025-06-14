@@ -1,0 +1,26 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.fundo {
+    background-image: url('floresta.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    color: white;
+    text-align: center;
+    padding: 1px; 
+}
+
+.fundo header,
+.fundo .agradecimento {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+}

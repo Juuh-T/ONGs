@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Quero criar uma ONG</title>
+  <link rel="stylesheet" href="style-criar.css">
+</head>
+
+<body>
+  <div class="banner">
+    <img src="folhas.jpg" alt="Folhas" class="faixa">
+    <div class="conteudo-banner">
+      <h1 class="titulo-principal">Quero criar uma ONG</h1>
+      <h2 class="title1">Criando uma ONG</h2>
+      <p>A partir de agora, você estará criando uma ONG para ajudar nosso meio ambiente, podendo incentivar outras pessoas a cuidarem do nosso mundo e ajudar a todos.</p>
+    </div>
+  </div>
+
+  <div class="criando">
+    <h3 class="title-começo">Agora, vamos começar a criar sua ONG</h3>
+    <p>Para nós podermos começar a criar sua ONG, precisamos que você preencha o que se pede abaixo:</p>
+  </div>
+
+  <main>
+    <form action="#" method="post">
+      <p><label for="nomesobrenome">Digite seu nome</label></p>
+      <p><input type="text" id="nomesobrenome" class="input-padrao" required></p>
+
+      <p><label for="email">Email</label></p>
+      <p><input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com"></p>
+
+      <p><label for="telefone">Telefone</label></p>
+      <p><input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX"></p>
+
+      <p><label for="nomeong">Nome da ONG</label></p>
+      <p><input type="text" id="nomeong" class="input-padrao" required></p>
+
+      <p><label for="mensagem">Qual o objetivo da sua ONG?</label></p>
+      <p><textarea cols="50" rows="5" id="mensagem" required></textarea></p>
+
+      <p><label for="integrantes">Quantas pessoas poderão participar? (entre 1 e 100):</label></p>
+      <p><input type="number" id="integrantes" name="integrantes" min="1" max="100" required></p>
+
+      <p><label for="bairro">Qual bairro de Curitiba irá ocorrer os encontros?</label></p>
+      <p><input list="bairros" id="bairro" name="bairro" placeholder="Ex: Centro" required></p>
+
+      <datalist id="bairros">
+        <option value="Centro">
+        <option value="Água Verde">
+        <option value="Batel">
+        <option value="Boqueirão">
+        <option value="Alto-Boqueirão">
+        <option value="Santa Felicidade">
+        <option value="Cajuru">
+        <option value="Portão">
+        <option value="Uberaba">
+        <option value="Cabral">
+        <option value="Guaíra">
+      </datalist>
+
+      <br><br>
+
+      <button type="submit" id="btnConfirm">Confirmar</button>
+    </form>
+  </main>
+
+  <!-- Script JavaScript que será executado ao final (geralmente usado para validação ou redirecionamento) -->
+  <script src="criado.js"></script>
+
+</body>
+
+</html>

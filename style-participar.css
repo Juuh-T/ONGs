@@ -1,0 +1,116 @@
+body {
+  background-color:#fffdf8;
+  height: 100%;
+  margin: 0;
+  padding: 0 20px;
+}
+
+.titulo-principal,
+.etapas-participar,
+.primeira-ong,
+.segunda-ong,
+.terceira-ong {
+  text-align: center;
+}
+
+.letra-o {
+  color: #00af2c;
+}
+
+.letra-n {
+  color: rgb(255, 0, 0);
+}
+
+.letra-g {
+  color: #2605fb;
+}
+
+.palavra-ong {
+  letter-spacing: 0;
+  white-space: nowrap; /* garante que não quebre entre as letras */
+}
+
+.ponte-ong,
+.um-lugar-ao-sol,
+.mais-verde {
+  font-size: 25px;
+}
+
+.info-container {
+  display: flex;
+  align-items: center;   /* centraliza verticalmente */
+  justify-content: center; /* centraliza horizontalmente */
+  gap: 40px;             /* espaço entre texto e imagem */
+  margin-top: 20px;
+}
+
+/* === Texto dentro do container === */
+.info-texto {
+  max-width: 500px;
+  text-align: left;
+}
+
+.info-texto a {
+  color: blue; 
+  text-decoration: underline;
+}
+
+.info-texto a:hover {
+  color: darkblue; 
+}
+
+.sede-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.sede {
+  border: 2px solid #000000;
+  border-radius: 4px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  width: 200px;
+  text-align: left;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.imagem-sede {
+  border: 2px solid #000000;
+  border-radius: 2px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Container: texto à esquerda, imagem à direita */
+.info-container {
+  display: flex;
+  align-items: center;     /* centraliza verticalmente */
+  justify-content: center; /* centraliza horizontalmente */
+  gap: 40px;               /* espaço entre texto e imagem */
+  margin-top: 20px;
+}
+
+/* Bloco de texto */
+.info-texto {
+  max-width: 500px;
+  text-align: left;
+}
+
+/* Link azul com hover */
+.link-azul {
+  color: blue;
+  text-decoration: underline;
+}
+
+.link-azul:hover {
+  color: darkblue;
+}
+
+/* Imagem com borda, sombra e cantos arredondados */
+.imagem-sede {
+  border: 2px solid #000000;
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
