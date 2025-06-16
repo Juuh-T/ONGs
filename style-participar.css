@@ -30,6 +30,15 @@ body {
   white-space: nowrap; /* garante que não quebre entre as letras */
 }
 
+.sede {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.sede:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
 .ponte-ong,
 .um-lugar-ao-sol,
 .mais-verde {
